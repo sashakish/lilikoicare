@@ -381,6 +381,7 @@ p {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  padding-top: 80px;
 }
 
 .hero__bg {
