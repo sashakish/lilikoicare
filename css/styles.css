@@ -538,13 +538,11 @@ p {
 }
 
 .content-block__image-photo {
-  width: 60%;
+  width: 15%;
   height: auto;
   object-fit: contain;
   display: block;
   margin: auto;
-  padding: 2rem;
-  box-sizing: border-box;
 }
 
 .content-block__image {
