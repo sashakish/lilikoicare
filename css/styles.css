@@ -538,8 +538,8 @@ p {
 }
 
 .content-block__image-photo {
-  width: 15%;
-  height: auto;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
   display: block;
   margin: auto;
