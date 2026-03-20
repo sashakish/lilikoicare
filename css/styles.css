@@ -538,11 +538,14 @@ p {
 }
 
 .content-block__image-photo {
-  width: 25%;
+  max-width: 200px;
   object-fit: contain;
-  background: var(--color-warm-light);
   margin: auto;
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .content-block__text {
