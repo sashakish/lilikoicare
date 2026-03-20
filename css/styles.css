@@ -510,7 +510,7 @@ p {
 .content-block__image {
   position: relative;
   overflow: hidden;
-  background-color: var(--color-warm);
+  background-color: #b4a29e;
   min-height: 400px;
 }
 
