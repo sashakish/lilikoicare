@@ -269,7 +269,7 @@ p {
 }
 
 .nav__logo span {
-  color: #c16512;
+  color: var(--color-primary-light);
 }
 
 .nav__links {
