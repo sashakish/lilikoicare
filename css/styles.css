@@ -749,7 +749,7 @@ p {
 /* --- CTA Banner --- */
 .cta-banner {
   position: relative;
-  background: url('../images/cta-bg.png') 100% center / cover no-repeat;
+  background: url('../images/cta-bg.jpg') 0% center / cover no-repeat;
   padding: 5rem 0;
   text-align: center;
 }
@@ -758,7 +758,7 @@ p {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.15) 75%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.15) 25%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.88) 100%);
   z-index: 0;
 }
 
