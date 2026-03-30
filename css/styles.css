@@ -749,7 +749,7 @@ p {
 /* --- CTA Banner --- */
 .cta-banner {
   position: relative;
-  background: url('../images/cta-bg.png') 85% center / cover no-repeat;
+  background: url('../images/cta-bg.png') 100% center / cover no-repeat;
   padding: 5rem 0;
   text-align: center;
 }
