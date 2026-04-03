@@ -725,7 +725,7 @@ p {
 .testimonial__quote::before {
   content: '\201C';
   font-size: 5rem;
-  color: #512260;
+  color: var(--color-white);
   position: absolute;
   top: -2rem;
   left: -1rem;
@@ -734,7 +734,7 @@ p {
 }
 
 .testimonial__author {
-  color: #512260;
+  color: var(--color-white);
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 2px;
