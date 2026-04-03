@@ -725,7 +725,7 @@ p {
 .testimonial__quote::before {
   content: '\201C';
   font-size: 5rem;
-  color: var(--color-white);
+  color: #c16512;
   position: absolute;
   top: -2rem;
   left: -1rem;
@@ -734,7 +734,7 @@ p {
 }
 
 .testimonial__author {
-  color: var(--color-white);
+  color: #c16512;
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -779,7 +779,11 @@ p {
 }
 
 .cta-banner::before {
-  display: none;
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 0;
 }
 
 .cta-banner .container {
