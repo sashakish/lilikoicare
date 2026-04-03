@@ -1278,6 +1278,7 @@ p {
     transition: right var(--transition);
     box-shadow: var(--shadow-lg);
     gap: 1.5rem;
+    z-index: 1001;
   }
 
   .nav__links--open {
