@@ -677,7 +677,7 @@ p {
 
 /* --- Testimonial Section --- */
 .testimonial {
-  background-color: var(--color-secondary);
+  background: linear-gradient(180deg, var(--color-secondary) 0%, var(--color-secondary) 50%, rgba(81,34,96,0.4) 85%, rgba(81,34,96,0.1) 100%);
   padding: 6rem 0;
   text-align: center;
 }
