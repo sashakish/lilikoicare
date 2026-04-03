@@ -1301,15 +1301,11 @@ p {
   }
 
   .nav__overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    display: none !important;
   }
 
-  .nav__overlay--visible {
-    display: block;
+  .nav__cta {
+    display: none;
   }
 
   .content-block {

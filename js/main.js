@@ -52,7 +52,15 @@ function initMobileNav() {
 
   // Close on link click
   links.querySelectorAll('.nav__link').forEach(link => {
-    link.addEventListener('click', closeNav);
+    link.addEventListener('click', (e) => {
+      const href = link.getAttribute('href');
+      if (href && !href.startsWith('#')) {
+        closeNav();
+        window.location.href = href;
+      } else {
+        closeNav();
+      }
+    });
   });
 
   // Close on escape
