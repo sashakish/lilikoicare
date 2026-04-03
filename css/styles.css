@@ -676,6 +676,30 @@ p {
 }
 
 /* --- Testimonial Section --- */
+.testimonial-cta-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonial-cta-wrapper .testimonial,
+.testimonial-cta-wrapper .cta-banner {
+  flex: 1 1 50%;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .testimonial-cta-wrapper {
+    flex-direction: column;
+  }
+  .testimonial-cta-wrapper .testimonial,
+  .testimonial-cta-wrapper .cta-banner {
+    flex: 1 1 100%;
+  }
+}
+
 .testimonial {
   background-color: var(--color-primary-light);
   padding: 6rem 0;
