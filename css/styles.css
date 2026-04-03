@@ -779,11 +779,7 @@ p {
 }
 
 .cta-banner::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 0%, rgba(81,34,96,0.15) 15%, rgba(81,34,96,0.5) 40%, rgba(81,34,96,0.85) 70%, rgba(81,34,96,1) 100%);
-  z-index: 0;
+  display: none;
 }
 
 .cta-banner .container {
