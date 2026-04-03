@@ -677,7 +677,7 @@ p {
 
 /* --- Testimonial Section --- */
 .testimonial {
-  background: linear-gradient(180deg, var(--color-secondary) 0%, var(--color-secondary) 50%, #b2927b 100%);
+  background-color: var(--color-primary-light);
   padding: 6rem 0;
   text-align: center;
 }
@@ -691,7 +691,7 @@ p {
 .testimonial__quote {
   font-family: var(--font-heading);
   font-size: clamp(1.4rem, 3vw, 2rem);
-  color: var(--color-white);
+  color: #512260;
   line-height: 1.6;
   margin-bottom: 2rem;
   font-style: italic;
@@ -701,7 +701,7 @@ p {
 .testimonial__quote::before {
   content: '\201C';
   font-size: 5rem;
-  color: var(--color-primary-light);
+  color: #512260;
   position: absolute;
   top: -2rem;
   left: -1rem;
@@ -710,7 +710,7 @@ p {
 }
 
 .testimonial__author {
-  color: var(--color-primary-light);
+  color: #512260;
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 2px;
